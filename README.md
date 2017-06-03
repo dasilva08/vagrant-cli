@@ -26,7 +26,8 @@ Rodando o comando: **`vagrant`**
 - uninstall
 - update
 
-### Controlando a quantidade de memoria que a box da máquina: 
+### Controlando a quantidade de memoria que a box da máquina:
+Dentro de sua VM abra o arquivo: **`Vagrantfile`**
 ```ruby
   config.vm.provider :virtualbox do |vb|
     vb.customize ['modifyvm', :id, '--memory', '2048']
@@ -34,6 +35,5 @@ Rodando o comando: **`vagrant`**
 ```
 
 ### Senha para acesso vagrant
-
 user: vagrant
 senha: vagrant
