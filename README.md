@@ -37,7 +37,6 @@ Dentro de sua VM abra o arquivo: **`Vagrantfile`**
 
 ### Senha para acesso vagrant
 
-`
-user: vagrant
-senha: vagrant
-`
+- user: vagrant
+- senha: vagrant
+
