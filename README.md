@@ -8,8 +8,9 @@ Comandos úteis para manipulaçao da VM.
 - vagrant up (Inicia a VM)
 - vagrant ssh (Acessa a VM)
 - vagrant suspend (suspender)
-- vagrant resume (reiniciar) => Estes dois comandos psermitirão reiniciar a sua máquina virtual no exato ponto onde ela estava antes de ser pausada.
+- vagrant resume (reiniciar VM)
 - vagrant reload (Reinicia a VM)
+- vagrant destroy (remove a máquina virtual existente)
 
 ### Instalação de Plugins
 
@@ -24,3 +25,15 @@ Rodando o comando: **`vagrant`**
 - repair
 - uninstall
 - update
+
+### Controlando a quantidade de memoria que a box da máquina: 
+```ruby
+  config.vm.provider :virtualbox do |vb|
+    vb.customize ['modifyvm', :id, '--memory', '2048']
+  end
+```
+
+### Senha para acesso vagrant
+
+user: vagrant
+senha: vagrant
