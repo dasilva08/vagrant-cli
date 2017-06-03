@@ -7,7 +7,8 @@ Comandos úteis para manipulaçao da VM.
 #### Acesso a VM
 - vagrant up (Inicia a VM)
 - vagrant ssh (Acessa a VM)
-- vagrant suspend (Suspende a VM)
+- vagrant suspend (suspender)
+- vagrant resume (reiniciar) => Estes dois comandos psermitirão reiniciar a sua máquina virtual no exato ponto onde ela estava antes de ser pausada.
 - vagrant reload (Reinicia a VM)
 
 ### Instalação de Plugins
