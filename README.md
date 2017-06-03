@@ -11,6 +11,7 @@ Comandos úteis para manipulaçao da VM.
 - vagrant resume (reiniciar VM)
 - vagrant reload (Reinicia a VM)
 - vagrant destroy (remove a máquina virtual existente)
+- vagrant global-status
 
 ### Instalação de Plugins
 
