@@ -14,9 +14,7 @@ Comandos úteis para manipulaçao da VM.
 
 Rodando o comando: **`vagrant`** 
 
-Exemplo de instalação de plugin
-
-vagrant plugin install 
+**EX:** **`vagrant plugin install vagrant-vbguest`**
 
 - expunge
 - install
